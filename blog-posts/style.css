@@ -31,6 +31,9 @@ nav ul{
     float: left;
 
 }
+.nav{
+  position: relative;
+}
   
  nav ul li {
      float: left;
@@ -53,6 +56,7 @@ nav ul{
     background-color: white;
     padding: 1px;
     border-radius:0px 0px 4px 4px;
+    z-index: 999;
  }
 
  nav ul li:hover ul{
@@ -72,4 +76,27 @@ nav ul{
 
 nav ul li ul li a:hover {
 background-color: gray;
+}
+
+
+
+
+  
+  h2 {
+    color: gold; 
+    text-decoration: underline
+  }
+  .boxed {
+    background-color: #27496d;
+    border: 15px solid blue ;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 15px 20px 20px;
+   opacity: .8;
+    margin: 80px
+  }
+.boxed h1 {
+   color:#00a8cc;
+    font-family: Luminari, fantasy;
+    text-decoration: underline;
 }
