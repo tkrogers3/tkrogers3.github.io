@@ -79,9 +79,19 @@ background-color: gray;
 }
 
 
+p{
+  color:snow;
+}
+ol{
+  color:snow;
+
+}
+
+ul{
+  color:snow;
+}
 
 
-  
   h2 {
     color: gold; 
     text-decoration: underline
@@ -95,9 +105,15 @@ background-color: gray;
    opacity: .8;
     margin: 80px
   }
+
+  
+  
+
 .boxed h1 {
    color:#00a8cc;
     font-family: Luminari, fantasy;
     text-decoration: underline;
+   
+
 }
 
